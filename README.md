@@ -96,7 +96,7 @@ Contoh konfigurasi aman:
 Cache-Control: no-store, no-cache, must-revalidate
 ```
 
-# Mengapa Header Ini Penting untuk Red Team?\
+# Mengapa Header Ini Penting untuk Red Team?
 - Identifikasi Teknologi: Header seperti Server dan X-Powered-By membantu menentukan teknologi yang dapat dieksploitasi.
 - Keamanan Pengguna: Header seperti Set-Cookie, Strict-Transport-Security, dan X-Frame-Options memungkinkan Anda menemukan celah untuk serangan seperti XSS, hijacking, dan clickjacking.
 - Ekspos Data Sensitif: Header seperti Access-Control-Allow-Origin dan Referrer-Policy memberikan peluang untuk mencuri data jika konfigurasi salah.
